@@ -1,17 +1,17 @@
-# n='nagar'
-# for i in range(1,2,+5):
-#     # print('nagar'*i)
 
-# for i in range(1,3):
-#     x =input('enter val:')
-#     for i in x:
-#         print(x)
+#1.
+for i in range(1,3):
+    x =input('enter val:')
+    for i in x:
+        print(x)
+
+#2.
 # str="nagaraj"
 # for i in range(0,7):
 #     for j in range(0,i+1):
 #         print(str[j],end=' ')
 #     print()
-
+#
 
 
 # for i in range(65,79):
@@ -184,8 +184,8 @@
 #     if n % i == 0:
 #         print(i,end=" ")
 
-n=int(input('enter the num to sum:'))
-sum=0
-for i in range(1,n+1,1):
-    sum=sum+sum
-    print('sum of num',n,'num is:',sum)
+# n=int(input('enter the num to sum:'))
+# sum=0
+# for i in range(1,n+1,1):
+#     sum=sum+sum
+#     print('sum of num',n,'num is:',sum)
