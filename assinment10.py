@@ -153,3 +153,39 @@
 # x='subbu'
 # print(x.center(10,'@'))
 # x.
+
+#x=(10,2,3,5)-> each ele multifly by 10   (100,20,30,50)
+# x=(10,2,3,5)
+# y=list(x)
+# for i in y:
+#     i*10
+# print(x)
+#
+
+
+# ass2 :
+# x=[1,2,3,4] -> [3,5,7]
+#reverse of a number...
+# n = 1234
+# r = 0
+#
+# while n != 0:
+#     d = n % 10
+#     r= r * 10 + d
+#     n //= 10
+#
+# print("r: " + str(r))
+
+#factors of a number
+# n = int(input("Enter a number :"))
+# print("The factors of are:")
+#
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         print(i,end=" ")
+
+n=int(input('enter the num to sum:'))
+sum=0
+for i in range(1,n+1,1):
+    sum=sum+sum
+    print('sum of num',n,'num is:',sum)
