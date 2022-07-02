@@ -1,9 +1,14 @@
 
 #1.
-for i in range(1,3):
-    x =input('enter val:')
-    for i in x:
-        print(x)
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# count=1
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(count,end=' ')
+#         count=count+1
+#     print()
 
 #2.
 # str="nagaraj"
@@ -18,35 +23,55 @@ for i in range(1,3):
 #     for j in range(65,i+1):
 #           print(chr(i),end=' ')
 #     print()
+
+#searching char in string
 # for i in range(1,4):
-#     x=input("enter the string":)
+#     x=input("enter the string:")
 #     y=input('enter the char:')
 #     if y in x:
 #         print(" is present")
 #     else:
+#         print(' is not present')
+
+
 # x='subbu'
 # y='venkat'
 # # if x==y
 # print("%s and%s arw good frnds"  %(x,y))
-# n=int(input("Enter number:"))
-# temp=n
-# rev=0                                   #[11,43,67,99,22,223
-# while(n>0):
-#     dig=n%10
-#     rev=rev*10+dig
-#     n=n//10
-# if(temp==rev):
-#     print("The number is a palindrome!")
-# else:
-#     print("The number isn't a palindrome!")
-# if n==true:
-#     x=i
-#     print(n,end=' ')
+
+
+#palindrom program
+# n=[11,43,67,99,22,223]
+# y=[]
+# for i in n:
+#     temp=i
+#     s=0
+#     while i>0:
+#         r=i%10
+#         s=s*10+r
+#         i=i//10
+#         if s==temp:
+#             y.append(s)
+# print(y)
+# print(max(y))
+
+#fibanaccii seriess
+# n=int(input('enter a val:'))
+# a=0
+# b=1
+# for i in range(1,n+1):
+#     c=a+b
+#     a=b
+#     b=c
+#     print(c,end=' ')
+
+
+#palimdrom
 # for i in range(0,7):
 #      n=int(input("enter the val:"))    #[121,77,443,111,223,675]
 #      temp=n
 #      r=0             #[11,43,67,99,22,223
-#       while(n>0):
+#     while(n>0):
 #
 #          d=n%10
 #          r=r%10+d
@@ -55,6 +80,9 @@ for i in range(1,3):
 #             print("the %d is palindrom".format(temp))
 #          else:
 #              print("not a palimdrom")
+
+
+#comparing two strings
 # for i in range(1,3):
 #     x=input('enter a string:')
 #     y=input('enter a string:')

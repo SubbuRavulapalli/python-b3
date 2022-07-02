@@ -263,3 +263,5 @@
 # x=list(x)
 # for i in range(len(x)):
 #     print(x[i]+x[i+1],end=' ')
+
+for i in range(1,11):
