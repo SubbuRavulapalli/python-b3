@@ -252,3 +252,16 @@
 #     print("reverse num of %d id: %d"  %(temp,s)
 
 ###adding to git
+
+# x=(10,2,3,5)
+# x=list(x)
+# for i in range(len(x)):
+#
+#     print(x[i]*10,end=' ')
+
+# x=[1,2,3,4] #-> #[3,5,7]
+# x=list(x)
+# for i in range(len(x)):
+#     print(x[i]+x[i+1],end=' ')
+
+for i in range(1,11):

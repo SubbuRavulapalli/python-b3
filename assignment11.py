@@ -37,14 +37,15 @@
 # y=x.endswith('A')
 # print(y)
 
+#4.
 # x='1234' # o/p int -> 1234
 # x=int(x)
 # # x=type(x,)
 # print(type(x),x)
 #
 #
-# 'Amma', 'is', 'MadaM'
-# fetch palindrom string # o/p : 'Amma','MadaM'
+#'Amma', 'is', 'MadaM'
+#fetch palindrom string # o/p : 'Amma','MadaM'
 # x='amMa'
 # x=x.casefold()
 # y=reversed(x)
@@ -93,7 +94,9 @@
 # a='B'
 # y = ascii(x), ord(x)
 # z=ascii(a),ord(a)
-# print(y*z)
+# s=
+#
+# print(s)
 
 #find the substr how many times it exits
      #ex : 'AAABBBCAA'  op : A->5
@@ -102,8 +105,5 @@
 # print('A is:',y)
 
 #x='Hello World'  o/p: 'hellO worlD' -> make frst letter caps and last letter small in each word of string
-x='Hello World'
+# x='Hello World'
 # y=x.swapcase()
-
-
-
